@@ -5,7 +5,6 @@ defmodule BrcEs do
   alias BrcEs.StatsServer
 
   def main(args) do
-    IO.inspect(args)
     {:ok, pid} = GenServer.start_link(StatsServer, %{})
 
     File.stream!(Enum.at(args, 0))

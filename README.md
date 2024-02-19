@@ -1,21 +1,10 @@
 # BrcEs
 
-**TODO: Add description**
+This is an implementation of the [Billion Row Challenge](https://github.com/gunnarmorling/1brc/tree/main) in Elixir
 
-## Installation
+## Strategy
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `brc_es` to your list of dependencies in `mix.exs`:
+Create a single process brute force implementation then optimize it
 
-```elixir
-def deps do
-  [
-    {:brc_es, "~> 0.1.0"}
-  ]
-end
-```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/brc_es>.
 
